@@ -9,6 +9,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+.venv/
 env/
 venv/
 ENV/
@@ -40,12 +41,12 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # ML Models & Datasets
-ml/saved_models/*.joblib
-ml/saved_models/*.pkl
 *.apk
 large dataset/
 dataset/student_placement_dataset_1M.csv
 dataset/archive/
+dataset/Engineering_graduate_salary.csv (2)
+ml/saved_models/*.tmp
 
 # Database & OS
 *.sqlite

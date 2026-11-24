@@ -1,0 +1,23 @@
+{
+  "model_type": "XGBRegressor",
+  "model_version": "v1.0",
+  "train_samples": 1776,
+  "test_samples": 445,
+  "mae_lpa": 2.1396,
+  "rmse_lpa": 2.9874,
+  "r2_score": 0.7457,
+  "median_absolute_error_lpa": 1.585,
+  "explained_variance": 0.7461,
+  "feature_importances": {
+    "coding_skills_score": 0.4283,
+    "cgpa": 0.104,
+    "internships": 0.0888,
+    "branch_CS": 0.0696,
+    "branch_IT": 0.0507,
+    "backlogs": 0.0475,
+    "certifications_count": 0.0283,
+    "aptitude_score": 0.028,
+    "history_of_backlogs": 0.0249,
+    "branch_ECE": 0.0241
+  }
+}
