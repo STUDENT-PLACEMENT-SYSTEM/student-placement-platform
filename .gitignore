@@ -1,0 +1,54 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# Node & Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ML Models & Datasets
+ml/saved_models/*.joblib
+ml/saved_models/*.pkl
+*.apk
+large dataset/
+dataset/student_placement_dataset_1M.csv
+dataset/archive/
+
+# Database & OS
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
